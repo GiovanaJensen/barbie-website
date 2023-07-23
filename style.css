@@ -23,6 +23,7 @@ body{
     /* overflow: hidden; */
     font-family: "Absolute Blonde", sans-serif;
     color: #fff;
+    position: relative;
 }
 
 .container{
@@ -105,4 +106,25 @@ i{
     border-radius: 26.933px;
     border: 1.796px solid #FFF;
     background: #DE3AA4;
+}
+
+footer{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+
+.ph-speaker-slash{
+    display: none;
+}
+
+#scroll{
+    margin-left: 270px;
+}
+
+#modalContainer {
+    display: none;
 }
